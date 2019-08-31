@@ -23,12 +23,12 @@ def on_press(key):
         if(key.char == 'a'):
             print("Counter Clockwise")
             vel.linear.x = 0
-            vel.angular.z = 0.8
+            vel.angular.z = -0.8
 
         if(key.char == 'd'):
             print("Clockwise")
             vel.linear.x = 0
-            vel.angular.z = -0.8
+            vel.angular.z = 0.8
 
         return False
 
